@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "AskLLMIntent",
+          "samples": [
+            "get {query}",
+            "tell {query}",
+            "explain {query}",
+            "what is {query}",
+            "ask brainiac {query}",
+            "tell brainiac {query}",
+            "get from brainiac {query}",
+            "brainiac {query}",
+            "can you tell brainiac {query}",
+            "brainiac tell me {query}",
+            "ask brainiac to {query}",
+            "hey brainiac {query}",
+            "start brainiac and {query}",
+            "open brainiac and {query}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "brainiac"
+    }
+  }
+}
